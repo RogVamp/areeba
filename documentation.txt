@@ -1,0 +1,48 @@
+Documentation:
+
+
+
+
+1. Database
+
+Run Postgres server with the following configurations:
+
+Port: 5432
+Database Name : customer_management
+Database Username : postgres
+Database Password : password
+
+
+
+2. Backend
+
+The 2 JAR files ( extension .jar ) run them with java thru Terminal.
+Like so:
+
+- java -jar phoneVerification.jar
+- java -jar api.jar
+
+
+
+
+3. Frontend
+
+Open a Terminal session in the folder “customer-management-frontend”
+
+
+On first time running excute the following command:
+- npm i
+
+
+Then to start React app run the following:
+- npm start
+
+
+4. Testing
+
+To test the application you have two methods:
+
+A) open http://localhost:3000/ in browser and work with the web ui version 
+B) Postman APIs, you will need to import "Areeba-Test.postman_collection.json" in postman as a collection and test out the APIs
+
+
